@@ -1,0 +1,149 @@
+html{
+    font-size: 15px;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.contentBox{
+    width: 40%;
+    padding-left: 1em;
+}
+.Home{
+font-size: 1.5rem;   
+text-decoration: none;
+color: #fff;
+}
+.contentBox h1{
+    font-size: 2.5rem;
+    color: #301934;
+    text-align: center;
+}
+.contentBox p{
+    font-size: 1.3rem;
+    margin: 1em 0;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.btn{
+    border: 2px solid transparent;
+    border-radius: 2em;
+    background-image: linear-gradient(#fff,#fff),radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.readMore{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: .5em 1.5em;
+    text-decoration: none;
+    color: #301934;
+
+}
+
+.imgContainer{
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+
+}
+img{
+    width: 100%;
+    margin-top: 2em;
+}
+@media screen and (max-width:900px){
+     html{
+        font-size: 14px;
+     }
+}
+
+@media screen and (max-width:768px){
+    html{
+       font-size: 14px;
+    }
+    p{
+        text-align: center;
+    }
+
+    .mainSection{
+       flex-direction: column;
+       margin-top: 1em;
+    }
+    .contentBox{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contentBox h1{
+        font-size: 2rem;
+    }
+    .contentBox p{
+        font-size: 1.1rem;
+       
+    }
+    .imgContainer{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:568px){
+
+    .Home{
+        color: #fff;
+        font-size: 1.45rem;
+        margin-left: 36px;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width:396px){
+    html{
+        font-size: 13px;
+    }
+    
+ 
+    .imgContainer{
+        width: 90%;
+        margin-bottom: 10rem;
+        
+    }
+    .mainSection{
+       height: 100vh;
+     }
+     .contentBox{
+       height: 35vh;
+    }
+
+
+}
+@media screen and (max-width:340px){
+    .btn{
+        border: 1px solid transparent;
+        background-clip: content-box,border-box;
+    }
+
+    .btnBox{
+        width: 100%;
+        display: flex;
+        height: 1.8rem;
+        justify-content: space-around;
+    }
+    .readMore{
+        display: inline-block;
+        font-size: .86rem;
+        padding: .4em ;
+        text-decoration: none;
+        color: #301934;
+    
+    }
+        
+}
+

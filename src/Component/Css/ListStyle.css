@@ -1,0 +1,201 @@
+
+nav{
+margin-top: .7em;
+}
+header{
+    background-color: #8B008B;
+    width: 100%;
+    position: sticky ;
+    top: 0;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    /* background-color: orange; */
+    margin: 0 auto;
+
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    border-radius: 100%;
+    height: 100px;
+    object-fit: cover;
+
+}
+.list{
+    display: flex;
+}
+.ContactIcon{
+    color:#fff;
+    margin-right: 2rem;
+    font-size: 70p;
+}
+.listItems{
+    margin-left: 2em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+}
+.activeItems{
+    font-size: 5px;
+    color: #fff;
+    margin-left: 38px;
+   text-decoration: none;
+
+}
+.activeItem{
+    color:orange;
+    border-bottom: .1em double #fff;;
+    text-decoration: none;
+    font-size: 24px;
+}
+.icons{
+    color: #fff;
+    display: flex;
+}
+.icon
+{
+    margin-right: 25px;
+margin-right:5rem   }
+/* media queries */
+@media screen and (max-width:1100px){
+    .icons{
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 13px;
+    }
+    header{
+        height:33vh;
+    }
+    .container-flex{
+       flex-direction: column;
+    }
+
+    .activeItems{
+        font-size: 19px;
+        color: #fff;
+        margin-left: 38px;
+       text-decoration: none;
+
+    }
+    .img{
+        width: 120px;
+        margin-left: 0px;
+        border-radius: 60%;
+    }
+    
+    .icons{
+        margin: 1em 1.5em;
+    }
+}
+
+@media screen and (max-width:568px){
+    html{
+        font-size: 11px;
+    }
+    .list{
+       flex-direction: column;
+       margin-top: 4.5rem;
+       align-items: center;
+
+    }
+    .activeItems{
+        font-size: 17px;
+        color: #fff;
+        margin-left: 38px;
+       text-decoration: none;
+
+    }
+    .listItems{
+       text-align: center;
+    }
+    .img{
+       width: 100px;
+       margin-top: 4.5rem;
+margin-left: 3rem;
+    }
+    header{
+        align-items: center;
+        flex-direction:row;
+        height: 27vh;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:474px){
+    html{
+        font-size: 15px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        margin-right:4rem ;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:10px;
+
+    }
+    .listItems{
+        text-align: center;
+        margin-bottom:.2rem;
+     }
+    
+}
+@media screen and (max-width:425px){
+    .services{
+       
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .activeItem{
+        font-size:1.45rem;
+        text-align: center;
+        color: #fff;
+        margin-left: 36px;
+    }
+}
+
+@media screen and (max-width:396px){
+    .Account{
+margin-top: 2rem;
+margin-right: 2rem;
+    }
+    .icons{
+        margin-top: 5rem;
+margin-right: 2rem;
+
+    }
+    .icon{
+        margin-top: 2rem;
+    }
+    .listItems{
+        font-size: 1em;
+     }
+     .Home{
+        font-size: 1em;
+
+     }
+     .img{
+        height: 50px;
+        width: 50px;
+     }
+}
+

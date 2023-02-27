@@ -1,0 +1,48 @@
+form{
+    width: 50%;
+    align-items: center;
+}
+
+.contact{
+    max-width: 990px;
+    margin: 2em auto;
+    height: 100vh;
+
+}
+.RR{
+    color: blue;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+.placeholder{
+    font-size: .5em;
+}
+input{
+    width: 100%;
+    padding: .7em;
+    margin-bottom: .2em;
+    border: .12em solid;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: .5em;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000;;
+
+}
+@media screen and (max-width:768px) {
+    .contact{
+        width: 70%;
+        margin: 1em auto;
+    }
+    input{
+        width: 100%;
+        padding: .3 em;
+        border: .3em solid;
+    }
+}
